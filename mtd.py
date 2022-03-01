@@ -689,23 +689,26 @@ class Morphence():
             except FileNotFoundError:
                 raise('model {} is not found'.format(i))
         
+        print('Predicting with models ', models)
+        print("n :",self.n)
+        print("p : ", self.p)
 
         if(is_ood):
-            models = models[self.p+1:self.n]
+            models = models[self.p:self.n]
         else : 
-            models = models[1:self.p]
+            models = models[1:self.p-1]
 
-        
         y_probs=[]
         for model in models:
             if device == "cuda":
                 model = model.cuda()
             model.eval()
+            print('predicting')
+            print(len(model(x)))
             y_probs.append(model(x))
-        print('[models]')
 
         #y_ind init torch tensor
-        print(y_probs[0])
+        print("yprobs : ",y_probs)
         for ind in range(x.shape[0]):
             for i in range(self.n-self.p):
                 print('[i]',i)
@@ -740,7 +743,6 @@ class Morphence():
                 
             
         
-        print('[---------------------------------------')
         return y_pred
 
         
