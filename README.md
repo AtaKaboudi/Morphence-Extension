@@ -145,19 +145,16 @@ The used Copycat code is a modified version of the original code provided in : h
 If you use Morphence in a scientific publication, please cite the corresponding paper as follows:
 
 ```
-Abderrahmen Amich and Birhanu Eshete. Morphence: Moving Target Defense Against Adversarial Examples. In Proceedings of the 37th Annual Computer Security Applications Conference, ACSAC, 2021.
+Ata Kaboudi ,Abderrahmen Amich and Birhanu Eshete. Morphence-2.0: Evasion-Resilient Moving Target Defense Powered by Out-of-Distribution Detection.
 ```
 
 BibTex entry:
 
 ```BibTex
 inproceedings{Morphence21,
- author    = {Abderrahmen Amich and Birhanu Eshete},
-  title     = {{Morphence: Moving Target Defense Against Adversarial Examples}},
-booktitle = {Annual Computer Security Applications Conference (ACSAC'21), December 6--10, 2021, Virtual Event, USA},
-publisher ={ACM},
-pages = {61--75},
- year      = {2021}
+ author    = {Ata Kaboudi , Abderrahmen Amich and Birhanu Eshete},
+  title     = {{Morphence-2.0: Evasion-Resilient Moving Target Defense Powered by Out-of-Distribution Detection}},
+
   }
 ```
 
