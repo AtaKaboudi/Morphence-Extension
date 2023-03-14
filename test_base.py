@@ -2,8 +2,8 @@
 
 """
 
-@author: Abderrahmen Amich
-@email:  aamich@umich.edu
+@author: Abderrahmen Amich ,Ata Kaboudi
+@email:  aamich@umich.edu, kaboudi@umich.edu
 """
 
 from absl import app, flags

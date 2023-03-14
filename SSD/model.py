@@ -4,6 +4,8 @@ ImageNet-Style ResNet
     Deep Residual Learning for Image Recognition. arXiv:1512.03385
 Adapted from: https://github.com/bearpaw/pytorch-classification
 """
+
+
 import torch
 import torch.nn as nn
 import torch.nn.functional as F

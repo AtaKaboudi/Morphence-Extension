@@ -1,3 +1,9 @@
+
+'''
+@author: Abderrahmen Amich ,Ata Kaboudi
+@email:  aamich@umich.edu, kaboudi@umich.edu
+'''
+
 import argparse
 import torch.nn as nn
 import torch
